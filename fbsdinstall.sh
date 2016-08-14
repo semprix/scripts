@@ -11,6 +11,7 @@ echo "+ bash"
 echo "+ sudo"
 echo "+ vim"
 echo "+ screen"
+echo "+ multitail"
 echo "+ htop"
 echo "+ nginx"
 echo "+ php"
@@ -50,6 +51,9 @@ pkg install -y vim
 sleep 2
 echo "===> Installing screen"
 pkg install -y screen
+sleep 2
+echo "===> Installing multitail"
+pkg install -y multitail
 sleep 2
 echo "===> Installing htop"
 pkg install -y screen
