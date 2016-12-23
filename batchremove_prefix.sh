@@ -1,9 +1,11 @@
 #!/bin/bash
+# During batch edit on Photoscape X for macOS the app asks for prefix when saving, this scripts will rename back
+# to the original camera filename after batch edit.
 
 batchprefix=batch_
 
 echo "===================================================="
-echo " Dialog / Photoscape Rename script                  "
+echo " Photoscape Rename script           					      "
 echo "===================================================="
 echo ">> Batch prefix set $batchprefix"
 echo ">> Set folder path:"
