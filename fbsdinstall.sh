@@ -61,7 +61,7 @@ echo "===> Installing nginx"
 pkg install -y nginx
 sleep 2
 echo "===> Installing PHP"
-pkg install -y php56
+pkg install -y php71
 sleep 2
 echo "===> Finishing install"
 echo "**** Please update rc.conf to enable nginx, php_fpm"
