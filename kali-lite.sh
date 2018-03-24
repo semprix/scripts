@@ -115,3 +115,4 @@ echo -e "\e[38;5;82m===>\e[0m Cloning ROOTCON Seclist"
 sleep 2
 mkdir -p /usr/local/share/wordlist
 git clone https://github.com/ROOTCONLabs/SecLists.git /usr/local/share/wordlist
+echo "\e[38;5;82m******\e[0m Done!"
