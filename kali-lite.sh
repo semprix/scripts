@@ -28,6 +28,12 @@ sleep 2
 apt-get -y install sudo
 sleep 2
 
+# Install sudo
+echo -e "\e[38;5;82m===>\e[0m Installing screen"
+sleep 2
+apt-get -y install screen
+sleep 2
+
 # Install Python pip
 echo -e "\e[38;5;82m===>\e[0m Installing pip"
 sleep 2
