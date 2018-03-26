@@ -117,8 +117,13 @@ sleep 2
 apt-get -y install wpscan
 
 echo ""
-echo -e "\e[38;5;82m===>\e[0m Cloning ROOTCON Seclist"
+echo -e "\e[38;5;82m===>\e[0m Adding ROOTCON Seclist"
 sleep 2
-mkdir -p /usr/local/share/wordlist
+echo -e "\e[38;5;82m===>\e[0m Checking for wordlist folder"
+if [ ! -d /usr/local/share/wordlist ]; then
+    mkdir -p /usr/local/share/wordlist
+else
+    echo -e "\e[38;5;82m===>\e[0m Cloning Seclist to /usr/local/share/wordlist"
 git clone https://github.com/ROOTCONLabs/SecLists.git /usr/local/share/wordlist
+sleep 2
 echo "\e[38;5;82m******\e[0m Done!"
